@@ -4,9 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest",
-    "start": "nodemon index.js",
-    "build": "echo \"No build step required for backend\""
+  "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest",
+  "start": "node index.js",
+  "dev": "nodemon index.js",
+  "build": "echo \"No build step required for backend\""
+}
+
   },
   "keywords": [],
   "author": "",
